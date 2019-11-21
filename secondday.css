@@ -1,0 +1,141 @@
+
+body{
+	margin:24px 15px;
+}
+body,a{
+	font-family: 'Noto Serif TC', serif;
+	color: orange;
+
+}
+
+header { margin-bottom: 10px; }
+
+.one,h2{
+	letter-spacing: 20px ;
+	text-decoration: blink;
+	margin: 20px 0px 20px 40%;
+}
+
+.buttonoutline {
+    position: center;
+    text-align: center;
+}
+
+
+/* ### HEADER LOGO ###*/
+
+#banner {
+    float: left;
+}
+
+#banner h1 {
+    margin: 0;
+}
+
+#banner img {
+    vertical-align: bottom;
+    width: 250px;
+}
+
+
+
+
+/* ### HEADER NAV ###*/
+
+nav {
+    float: right;
+    font-size: 20px;
+    font-family: 'Noto Serif TC', serif;
+    padding-top: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav li a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+    color: #000000;
+}
+
+nav li a:hover {
+    border-bottom-color: #000000;
+}
+
+header {
+    overflow: hidden;
+}
+
+
+/* ### HEADERPOST 圖片###*/
+
+#headerpost img {
+    float: left;
+    vertical-align: bottom;
+    width: 620px;
+}
+
+
+/* ### HEADERPOST LEAD###*/
+
+#headerpost #lead {
+    float: left;
+    width: 600px;
+    color: #fff00f;
+    margin-left: 0px;
+}
+
+#headerpost h4 {
+    margin: 20px 55px;
+}
+
+#headerpost .date {
+    font-size: 10px;
+    font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+
+#headerpost .more a {
+    color: #ffffff;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: block;
+    padding: 10px 40px 10px 0;
+    text-decoration: none;
+}
+
+#headerpost {
+    background-color: #000000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#345673));
+    background: -webkit-linear-gradient(#FFFFFF 0%, #345673 100%);
+    background: -moz-linear-gradient(#FFFFFF 0%, #345673 100%);
+    background: -o-linear-gradient(#FFFFFF 0%, #345673 100%);
+    background: -ms-linear-gradient(#FFF 0%, #345673 100%);
+    background: linear-gradient(#FFF 0%, #345673 100%);
+    overflow: hidden;
+}
+
+
+#content .post{
+	float: left;
+}
+
+#content
+{margin: 100px 0px 0px 0px;}
+
+footer{
+	margin-top: 30px;
+}
+
